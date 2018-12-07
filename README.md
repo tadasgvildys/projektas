@@ -1,8 +1,11 @@
 # Projektas
 tai yra mano projektas.
 Jis tures:
-* .....
-* .....
-* .....
-naudosiu bootstap :
+* html
+* sass
+* javascript
+naudosiu bootstap 
+```python
+s = "Python syntax highlighting"
+print s
 
