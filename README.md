@@ -1,1 +1,8 @@
-# projektas
+# Projektas
+tai yra mano projektas.
+Jis tures:
+* .....
+* .....
+* .....
+naudosiu bootstap :
+
