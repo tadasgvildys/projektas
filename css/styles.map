@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/styles.css",
+	"sources": [
+		"../sass/styles.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n   \r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    position: relative;\r\n    \r\n\r\n\r\n}\r\n.navbar-brand {\r\n    color: rgb(224, 99, 15);\r\n}\r\n\r\n#pirmas {\r\n    \r\n}\r\n#antras {\r\n    background-position: auto;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url('../images/680dc21c3a06be91254077dca9a727fb.jpg');\r\n}\r\n#ketvirtas {\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url('../images/boris-campistron-gul-dan.jpg');\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EAED,mBAAmB,EAAE,MAAO;EAC5B,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,KAAM;EACvB,QAAQ,EAAE,QAAS;CAItB;;;AACD,AAAA,aAAa,CAAC;EACV,KAAK,EAAE,OAAG;CACb;;;AAKD,AAAA,OAAO,CAAC;EACJ,mBAAmB,EAAE,IAAK;EAC1B,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,KAAM;EACvB,gBAAgB,EAAE,qDAAG;CACxB;;;AACD,AAAA,UAAU,CAAC;EACP,mBAAmB,EAAE,MAAO;EAC5B,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,KAAM;EACvB,gBAAgB,EAAE,6CAAG;CACxB",
+	"names": []
+}

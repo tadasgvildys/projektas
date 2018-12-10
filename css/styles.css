@@ -1,0 +1,30 @@
+/* line 1, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 11, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
+.navbar-brand {
+  color: #e0630f;
+}
+
+/* line 18, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
+#antras {
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/680dc21c3a06be91254077dca9a727fb.jpg");
+}
+
+/* line 24, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
+#ketvirtas {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/boris-campistron-gul-dan.jpg");
+}
+
+/*# sourceMappingURL=../css/styles.map */
