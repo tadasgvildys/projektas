@@ -7,24 +7,43 @@ body {
 }
 
 /* line 11, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
-.navbar-brand {
-  color: #e0630f;
-}
+
+
 
 /* line 18, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
-#antras {
-  background-position: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../images/680dc21c3a06be91254077dca9a727fb.jpg");
-}
 
-/* line 24, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss */
+
+/* line 24, C:/Users/XPS/Desktop/projektas/projektas/sass/styles.scss 
 #ketvirtas {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../images/boris-campistron-gul-dan.jpg");
+  border-radius: 50%;
+  width: 50px;
 }
-
+*/
+.foto1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(101, 101, 107);
+}
+.foto1:hover {
+  opacity: 0.7;
+}
+.foto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(101, 101, 107);
+}
+.foto2:hover {
+  opacity: 0.7;
+}
+.i:hover {
+ color: rgb(111, 211, 107);
+}
 /*# sourceMappingURL=../css/styles.map */

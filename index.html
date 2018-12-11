@@ -10,56 +10,68 @@
       <!-- Bootstrap core CSS -->
 
       <!-- Custom fonts for this template -->
-      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
       <!--  styles for this template -->
       <link rel="stylesheet" href="css/styles.css">  
     <css></css>
     <title>Baigiamasis darbas</title>
   </head>
-  <body id="page-top" data-spy="scroll">
+  <body id="page-top" data-spy="scroll" data-target=".navbar">  
+    
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg  pt-2 border border-warning" id="navigacija">
-        <a class="navbar-brand" href="#">menu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    
+  <div class="d-flex flex-md-row green-line">
+          <div class="col-md-8">
+              <nav class="navbar navbar-expand-md navbar-light float-left pl-5" id="navBar">
+                  <div class="row">
+                      <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span></button>
+                      <a class="active" href="#"><i class="navbar-toggler material-icons material-icons-reverse waa my-auto">search</i></a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" href="https://worldofwarcraft.com/en-gb/"><i class="material-icons">home</i></a> 
+                          </li>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" data-target href="#">CHARACTERS</a>
+                          </li>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" href="#">FEATURES</a>
+                          </li>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" href="#">SHOP</a>
+                          </li>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" href="#">ELEMENTS</a>
+                          </li>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark active" href="#">MEGA MENU</a>
+                          </li>
+                          <li class="nav-item dropdown pb-4">
+                              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CHARACTERS</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#pirmas">one</a>
+                                <a class="dropdown-item" href="#antras">two</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#three">three</a>   
+          </div>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Characters <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://worldofwarcraft.com/en-gb/">Home page</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+                          <li class="nav-item list-unstyled">
+                              <a class="nav-link p-2 text-dark  active" href="#"><i class="material-icons">search</i></a>
+                          </li>
+
+                </nav>                
+          </div>    
+  </div> 
+  <hr>    
+      
       
       <!--characters-->
-      <div class="row">
+      <div class="row" data-spy="scroll" data-target="navBar">
           <div class="col-12 col-md-6 col-lg-6 text-center" id="pirmas">
               <h1 class="antraste" >Varian Wrynn</h1>
                 <h4>Former High King of the Alliance</h4> 
@@ -67,19 +79,18 @@
                   But as the years passed, Varian became more and more influenced by Anduin, who showed an affinity to diplomacy. As tensions between the Horde and the Alliance exploded in Pandaria, Varian served as a mediator for the first time, tempering the cold tactics of war with an eye toward creating lasting peace. This culminated in the invasion of Orgrimmar with the help of a Horde rebellion. Varian's success solidified his position as high king, the commander of all Alliance forces.
                   When the Burning Legion invaded the Broken Isles, Varian personally led the Alliance's counterattack. The brutal fighting forced both the Alliance and the Horde to retreat, and Varian Wrynn sacrificed his life to allow his allies to escape.</p>
           </div>
-          <hr>
-          <div class="col-12 col-md-6 col-lg-6 text-center" id="antras">
+          <div data-spy="scroll" data-target="navBar" class="col-12 col-md-6 col-lg-6 text-center" id="antras">
+           <img class="foto1" src="https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/b/be/Varian_Wei.jpg?version=f1dae75b94bf31cafa21029ba6300d7c" alt="" width="40%">
           </div>
-          <hr>
-          <div class="col-12 col-md-6 col-lg-6 text-center" id="trechias">
+          <div class="col-12 col-md-6 col-lg-6 text-center" id="trechias mt-5">
               <h1 class="antraste" >Gul'dan</h1>
               <h4>The First Warlock</h4>
               <p>Born on Draenor, homeworld of the orcs, Gul'dan was an outcast from a very young age. Utterly obsessed with obtaining power, he agreed to a secret alliance with the Burning Legion, a destructive army from beyond the stars. He drank demon blood and altered the fate of his people forever.
                   The blood transformed Gul'dan into something hideous, bent and twisted by demonic energies. With his lieutenants, he forged the nefarious Shadow Council and attempted to corrupt the many orc clans of Draenor so they would become agents of the Legion. His plan failed. A stranger from another time and place unveiled his deception, and the Iron Horde was formed without demonic influence. Gul'dan was branded a traitor and thrown into chains, and he was forced to help the orcs open the Dark Portal.
                   But amid the chaos of the war between the Iron Horde and Azeroth's champions, the warlock escaped, and he continued to work on the demons' behalf. After his masters' foothold on Draenor was destroyed, Gul'dan was guided to the Tomb of Sargeras, where he unleashed the Burning Legion's might upon Azeroth.</p> 
           </div>
-          <hr>
           <div class="col-12 col-md-6 col-lg-6 text-center" id="ketvirtas">
+              <img class="foto2" src="https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/5/54/Gul%27dan_WoD.png?version=f0a0b3f5ee170d14f31e23851bbcd864" alt="" width="40%">
             </div>
       </div>
 
