@@ -23,62 +23,19 @@ body {
   width: 50px;
 }
 */
-.foto1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: 2px solid rgb(101, 101, 107);
-  height: 400px;
+.div1 {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
 }
-.foto1:hover {
+.foto { 
+  border-radius: 20px;
+}
+.foto:hover {
   opacity: 0.7;
 }
-.foto2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: 2px solid rgb(101, 101, 107);
-  height: 400px;
+#rodykle {
+  image:url("../images/boris-campistron-gul-dan.jpg")
 }
-.foto2:hover {
-  opacity: 0.7;
-}
-.foto3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: 2px solid rgb(101, 101, 107);
-  height: 400px;
-}
-.foto3:hover {
-  opacity: 0.7;
-}
-.foto4 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: 2px solid rgb(101, 101, 107);
-  height: 400px;
-}
-.foto4:hover {
-  opacity: 0.7;
-}
-.foto5 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: 2px solid rgb(101, 101, 107);
-  height: 400px;
-}
-.foto5:hover {
-  opacity: 0.7;
-}
-
-
 /*# sourceMappingURL=../css/styles.map */
 /**
